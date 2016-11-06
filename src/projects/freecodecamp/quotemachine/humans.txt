@@ -1,0 +1,24 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Todd Johnson -- Developer -- @ToddJ93
+
+# THANKS
+
+    Free Code Camp
+    As always, my beautiful Fiancè for her patience in my long hours of coding - Angela Thomas
+
+# TECHNOLOGIES
+
+    CSS3, HTML5, Sass, Bower, jQuery, Bootstrap, Font Awesome, SweetAlert, Compressior.io
+
+# API's
+
+	Andruxnet Random Famous Quotes - Collection of Famous Quotes - https://andruxnet-random-famous-quotes.p.mashape.com
+
+# SOFTWARE
+
+	Sublime Text 3, Github, Transmit, CodeKit
+

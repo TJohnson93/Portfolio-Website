@@ -1,0 +1,24 @@
+/**
+ * File Name: _variable.scss
+ * File Author: Todd Johnson (Kwarza Studios)
+ * File Creation Date: 29/09/2014
+ *
+ * Contains all Global Variables
+ */
+
+
+/* Variables - Sizes */
+$max-content-width: 1020px;
+
+$palm-max: 480px;
+$lap-min: 900px;
+$lap-max: 1300px;
+$portable-min: 481px;
+$portable-max: 901px;
+$desk-min: 1301px;
+
+
+/* Variables - Fonts */
+// $font-stack: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+$font-stack: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+$font-color: #22222a;

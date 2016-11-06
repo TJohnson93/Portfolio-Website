@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="coeus">
+<head>
+	<meta charset="UTF-8">
+	<title>Survey Builder</title>
+
+	<!-- Load Styleheets -->
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+
+	<!-- Load Scripts -->
+	<script type="text/javascript" src="js/app-min.js"></script>
+</head>
+<body>
+	<div id="page" ng-controller="PanelController as panel">
+
+		<!-- Page Menu -->
+		<div class="ui secondary container menu">
+			<a class="item"><i class="icon dashboard"></i>Dashboard</a>
+			<a class="active item"><i class="icon edit"></i>Projects</a>
+			<a class="item"><i class="icon line chart"></i>Analytics</a>
+			<a class="item"><i class="icon newspaper"></i>Reporting</a>
+			<a class="item"><i class="icon configure"></i>Support</a>
+			<div class="right menu">
+				<div class="item">
+					<div class="ui icon input">
+						<input type="text" placeholder="Search...">
+						<i class="search link icon"></i>
+					</div>
+				</div>
+				  <div class="ui inline dropdown">
+				    <div class="text">
+				      <img class="ui avatar image" src="img/jenny.jpg" height="50" width="50">
+				      Jenny Hess
+				    </div>
+				    <i class="dropdown icon"></i>
+				    <div class="menu">
+				      <div class="item">
+				        My Profile <i class="icon user"></i>
+				      </div>
+				      <div class="item">
+				      	Settings <i class="icon settings"></i>
+				      </div>
+				      <div class="divider"></div>
+				      <div class="item">
+				      	Sign Out <i class="icon sign out"></i>
+				      </div>
+				    </div>
+				  </div>
+			</div>
+		</div>
+		
+		<!-- Banner Strip -->
+		<div class="banner">
+			<div class="ui container basic segment">
+				<h1>New Project</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit.</p>
+			</div>
+
+			<!-- Steps Menu -->
+			<div class="ui container grid small five steps">
+			  <div class="step" ng-class="{active:panel.isSelected(1)}" ng-click="panel.selectTab(1)">
+			    <i class="checkmark icon"></i>
+			    <div class="content">
+			      <div class="title">Let's Start</div>
+			    </div>
+			  </div>
+			  <div class="step" ng-class="{active:panel.isSelected(2)}" ng-click="panel.selectTab(2)">
+			    <i class="desktop icon"></i>
+			    <div class="content">
+			      <div class="title">The Project</div>
+			    </div>
+			  </div>
+			  <div class="step" ng-class="{active:panel.isSelected(3)}" ng-click="panel.selectTab(3)">
+			    <i class="users small icon"></i>
+			    <div class="content">
+			      <div class="title">Participants</div>
+			    </div>
+			  </div>
+			  <div class="step" ng-class="{active:panel.isSelected(4)}" ng-click="panel.selectTab(4)">
+			    <i class="sitemap small icon"></i>
+			    <div class="content">
+			      <div class="title">Modules</div>
+			    </div>
+			  </div>
+			  <div class="step" ng-class="{active:panel.isSelected(5)}" ng-click="panel.selectTab(5)">
+			    <i class="camera retro icon"></i>
+			    <div class="content">
+			      <div class="title">Themes</div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+
+		<!-- Content -->
+		<div class="panel ui container">
+			<div class="ui raised segment">
+				<project-start-panel ng-show="panel.isSelected(1)"></project-start-panel>
+				<project-project-panel ng-show="panel.isSelected(2)"></project-project-panel>
+				<project-participant-panel ng-show="panel.isSelected(3)"></project-participant-panel>
+				<project-module-panel ng-show="panel.isSelected(4)"></project-module-panel>
+				<project-theme-panel ng-show="panel.isSelected(5)"></project-theme-panel>
+			</div>
+		</div>
+		
+		<!-- Footer -->
+		<footer>
+			<div class="ui basic horizontal segments">
+				<div class="ui left aligned basic clearing segment">
+					<p class="developer"><a>Kwarza Studios</a> - Developed by <a>Todd Johnson</a></p>
+				</div>
+				<div class="ui right aligned basic clearing segment">
+					<p>version: <strong>1.0</strong> <i class="circular icon twitter"></i><i class="circular icon facebook"></i><i class="circular icon github"></i></p>
+				</div>
+			</div>
+		</footer>
+
+	</div> <!-- End Page Container-->
+</body>
+</html>

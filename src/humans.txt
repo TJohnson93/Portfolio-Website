@@ -1,0 +1,22 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+/* TEAM */
+	Developer: Todd Johnson
+	Twitter: @ToddJ93
+	GitHub: https://github.com/TJohnson93
+	LinkedIn: https://au.linkedin.com/in/toddajohnson93
+	Website: https://toddjohnson.com.au
+	From: Beaudesert, Queensland, Australia
+
+/* THANKS */
+	As always thank you to my beautiful fiance who is always very supportive and understanding
+	to the time I spend doing the things I love.
+
+/* SITE */
+	Last Update: 14/07/2016
+	Language: English
+	Doctype: HTML5
+	IDE: Atom, Adobe Photoshop, Transmit
+	Vendors: jQuery, Bower, Semantic-UI 2.0, AnimateScroll, PHPMailer, Gutsy by Kwarza Studios,
+	Technologies: HTML, CSS, LESS, Grunt

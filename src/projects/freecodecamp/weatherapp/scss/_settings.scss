@@ -1,0 +1,16 @@
+
+$colour: #FFFFFF;
+
+$font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+$font-header:'Architects Daughter', cursive;
+$bg_nice : '../img/bg_island.jpg';
+$bg_cold : '../img/bg_snow.jpg';
+$bg_hot  : '../img/bg_uluru.jpg';
+
+@mixin bg_img($file){
+	background: url($file) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}

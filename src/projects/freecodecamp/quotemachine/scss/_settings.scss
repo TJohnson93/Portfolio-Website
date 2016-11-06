@@ -1,0 +1,32 @@
+$font-color-primary: rgb(255, 255, 255);
+$font-color-secondary: rgb(244, 244, 244);
+
+$button-color-text: rgb(255, 255, 255);
+$button-color-default: rgb(208, 208, 208);
+$button-color-default-hover: rgb(200, 200, 200);
+$button-color-twitter: rgb(171, 222, 242);
+$button-color-twitter-hover: rgb(164, 213, 232);
+
+
+@mixin border-radius-simple($radius){
+	-webkit-border-radius : $radius;
+	 -khtml-border-radius : $radius;
+       -moz-border-radius : $radius;
+        -ms-border-radius : $radius;
+         -o-border-radius : $radius;
+	        border-radius : $radius;
+}
+
+@mixin box-sizing($box){  
+  -webkit-box-sizing: $box;   /* Safari/Chrome, other WebKit */
+     -moz-box-sizing: $box;   /* Firefox, other Gecko */
+          box-sizing: $box;   /* Opera/IE 8+ */
+}
+
+@mixin bg_img($file){
+	background: url($file) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}

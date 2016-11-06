@@ -1,0 +1,49 @@
+/* =================================================================================================
+		Typography 
+================================================================================================= */
+
+body{
+	font-family: $font-stack;
+	line-height: 1.56;
+	color: #44444a;
+	font-size: 18px;
+	// font-weight: 300;
+}
+
+p{
+
+}
+
+h1, h2, h3, h4, h5, h6{
+	color: $font-color;
+	font-weight: 300;
+	line-height: 1.2;
+	letter-spacing: -1px;
+	margin: 20px 0;
+
+
+	small{
+		color: #8b99a5;
+		display: block;
+		line-height: 1.45;
+		letter-spacing: normal;
+		margin-top: 26px;
+	}
+}
+
+h1{
+	font-size: 48px;
+}
+
+h4{
+	font-size: 30px;
+	font-weight: normal;
+	letter-spacing: normal;
+	text-align: left;
+
+	p{
+		color: #8b99a5;
+		font-size: 1rem;
+		margin: 20px 0;
+	}
+}

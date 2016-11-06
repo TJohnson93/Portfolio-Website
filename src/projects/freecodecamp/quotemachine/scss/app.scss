@@ -1,0 +1,96 @@
+
+@import '_settings.scss';
+
+@import '../bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss';
+@import '../bower_components/font-awesome/scss/font-awesome.scss';
+@import '../bower_components/sweetalert/dist/sweetalert.css';
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+
+	@include bg_img('../img/bg.jpg');
+}
+
+.container{
+	max-width: 600px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.quote_container {
+	position: fixed;
+	max-width: 700px;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -350px;
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 10px;
+
+	@include border-radius-simple(10px);
+	@include box-sizing(border-box);
+}
+
+.quote{
+	font-size: 2em;
+	color: $font-color-primary;
+	padding: 20px 0;
+}
+
+.quote_author{
+	font-size: 1em;
+	color: $font-color-secondary;
+}
+
+nav{
+	z-index: 9999;
+}
+
+@media all and (max-width: 700px){
+	.quote_container {
+		position: relative;
+		width: 100%;
+		top: 0;
+		left: 0;
+		margin-top: inherit;
+		margin-left: inherit;
+		background-color: rgba(0, 0, 0, 0.2);
+		padding: 10px;
+
+		@include border-radius-simple(10px);
+		@include box-sizing(border-box);
+	}
+}
+
+// .btn_container{
+// 	padding: 20px 0 0;
+// 	.btn{
+// 		color: $button-color-text;
+// 		border-color: transparent;
+		
+// 		&:first-child{
+// 			background-color: $button-color-default;
+// 			border-color: $button-color-default;
+
+// 			&:hover{
+// 				background-color: $button-color-default-hover;
+// 				border-color: $button-color-default-hover;
+// 			}
+// 		}
+
+// 		&:last-child{
+// 			background-color: $button-color-twitter;
+// 			border-color: $button-color-twitter;
+
+// 			&:hover{
+// 				background-color: $button-color-twitter-hover;
+// 				border-color: $button-color-twitter-hover;
+// 			}
+// 		}
+// 	}
+// }

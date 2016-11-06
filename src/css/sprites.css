@@ -1,0 +1,186 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-badge_apple {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -120px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_blue_card {
+  background-image: url(../img/sprites.png);
+  background-position: -280px -60px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_ccna {
+  background-image: url(../img/sprites.png);
+  background-position: -340px -240px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_codeschool {
+  background-image: url(../img/sprites.png);
+  background-position: -120px 0px;
+  width: 100px;
+  height: 60px;
+}
+.icon-badge_comptia_a {
+  background-image: url(../img/sprites.png);
+  background-position: -60px -120px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_comptia_linux {
+  background-image: url(../img/sprites.png);
+  background-position: -120px -120px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_comptia_network {
+  background-image: url(../img/sprites.png);
+  background-position: -220px 0px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_comptia_security {
+  background-image: url(../img/sprites.png);
+  background-position: -220px -60px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_construction {
+  background-image: url(../img/sprites.png);
+  background-position: -220px -120px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_itil {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -180px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_lynda {
+  background-image: url(../img/sprites.png);
+  background-position: -60px -180px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_ms_access {
+  background-image: url(../img/sprites.png);
+  background-position: -120px -180px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_ms_excel {
+  background-image: url(../img/sprites.png);
+  background-position: -180px -180px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_ms_outlook {
+  background-image: url(../img/sprites.png);
+  background-position: -280px 0px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_ms_powerpoint {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -300px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_ms_project {
+  background-image: url(../img/sprites.png);
+  background-position: -280px -120px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_ms_word {
+  background-image: url(../img/sprites.png);
+  background-position: -280px -180px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_mva {
+  background-image: url(../img/sprites.png);
+  background-position: 0px -240px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_osx_10_11 {
+  background-image: url(../img/sprites.png);
+  background-position: -60px -240px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_osx_10_12 {
+  background-image: url(../img/sprites.png);
+  background-position: -120px -240px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_regex {
+  background-image: url(../img/sprites.png);
+  background-position: -180px -240px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_rsa {
+  background-image: url(../img/sprites.png);
+  background-position: -240px -240px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_sequel_sql {
+  background-image: url(../img/sprites.png);
+  background-position: -340px 0px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_sixsigma_yellow {
+  background-image: url(../img/sprites.png);
+  background-position: -340px -60px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_try_git {
+  background-image: url(../img/sprites.png);
+  background-position: -340px -120px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_try_sql {
+  background-image: url(../img/sprites.png);
+  background-position: -340px -180px;
+  width: 60px;
+  height: 60px;
+}
+.icon-badge_win_7 {
+  background-image: url(../img/sprites.png);
+  background-position: -120px -60px;
+  width: 67px;
+  height: 60px;
+}
+.icon-logo_tafe_gold_coast {
+  background-image: url(../img/sprites.png);
+  background-position: 0px 0px;
+  width: 120px;
+  height: 120px;
+}

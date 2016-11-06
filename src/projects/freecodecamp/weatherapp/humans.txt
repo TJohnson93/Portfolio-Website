@@ -1,0 +1,27 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Todd Johnson -- Developer -- @ToddJ93
+
+# THANKS
+
+    Free Code Camp
+
+# TECHNOLOGIES
+
+    CSS3, HTML5, Sass, Bower, jQuery, CSSWizardry-Grids, Compressior.io
+
+# API's
+
+	JSON IP - Collect the Users IP Address - http://jsonip.com
+	World Weather Online - Collect Weather information at Users Location - http://api.worldweatheronline.com
+
+# SOFTWARE
+
+	Sublime Text 3, Github, Transmit, CodeKit
+
+# OTHER RESOURCES
+    Beautiful Weather Icon Set - CustomIconDesign - http://customicondesign.deviantart.com/art/Beautiful-Weather-Icon-Set-208760113
+

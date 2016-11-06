@@ -1,0 +1,70 @@
+/* =================================================================================================
+		Sass mixins 
+================================================================================================= */
+
+// Stop padding affecting width and height
+@mixin box-sizing($box-model){  
+  -webkit-box-sizing: $box-model;   /* Safari/Chrome, other WebKit */
+     -moz-box-sizing: $box-model;   /* Firefox, other Gecko */
+          box-sizing: $box-model;   /* Opera/IE 8+ */
+}
+
+/*** Border Radius Mixins ***/
+@mixin border-radius-simple($radius){
+  -webkit-border-radius: $radius;
+  -khtml-border-radius : $radius;
+  -moz-border-radius   : $radius;
+  -ms-border-radius    : $radius;
+  -o-border-radius     : $radius;
+  border-radius        : $radius;
+}
+
+@mixin border-radius-complex($top-left, $top-right, $bottom-right, $bottom-left){
+  -webkit-border-radius: $top-left $top-right $bottom-right $bottom-left;
+  -khtml-border-radius : $top-left $top-right $bottom-right $bottom-left;
+  -moz-border-radius   : $top-left $top-right $bottom-right $bottom-left;
+  -ms-border-radius    : $top-left $top-right $bottom-right $bottom-left;
+  -o-border-radius     : $top-left $top-right $bottom-right $bottom-left;
+  border-radius        : $top-left $top-right $bottom-right $bottom-left;
+}
+
+/*** Gradients ***/
+@mixin linear-gradient($fromColor, $toColor) {
+  background-color: $toColor; /* Fallback Color */
+  background-image: -webkit-gradient(linear, left top, left bottom, from($fromColor), to($toColor)); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, $fromColor, $toColor); /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image:    -moz-linear-gradient(top, $fromColor, $toColor); /* FF3.6 */
+  background-image:     -ms-linear-gradient(top, $fromColor, $toColor); /* IE10 */
+  background-image:      -o-linear-gradient(top, $fromColor, $toColor); /* Opera 11.10+ */
+  background-image:         linear-gradient(top, $fromColor, $toColor); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#{$fromColor}', EndColorStr='#{$toColor}');  /* IE6-9 */
+}
+
+/*** Apply Styling to IE ***/
+@mixin ie-fallback($wrapper-class){
+  .#{$wrapper-class} & {
+    @content;
+  }
+}
+
+
+@mixin clearfix { // micro clearfix hack
+  zoom: 1;
+  &:before, &:after { content: ""; display: table; }
+  &:after { clear: both; }
+}
+
+@mixin mobilefix() {
+  @include respond(all-phones) { 
+    &:before, &:after {
+      content: " ";
+      display: table;
+    }
+    &:after {
+      clear: both;
+    }
+    &:last-child {
+      float: none;
+    }
+  }
+}

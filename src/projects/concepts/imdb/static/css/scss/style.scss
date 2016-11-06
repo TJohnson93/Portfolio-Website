@@ -1,0 +1,24 @@
+/**
+ * File Name: style.scss
+ * File Author: Todd Johnson (Kwarza Studios)
+ * File Creation Date: 29/09/2014
+ *
+ * A Master StyleSheet that combines all seperate stylesheets.
+ */
+
+/* Vendor Styling */
+// @import 'vendor/normalize.scss';
+@import 'vendor/csswizardry-grids.scss';
+
+/* Modules Styling */
+@import 'modules/variables.scss';
+@import 'modules/mixins.scss';
+@import 'modules/typography.scss';
+
+/* Partials Styling */
+@import 'partials/global.scss';
+// @import 'partials/textarea.scss';
+@import 'partials/header.scss';
+@import 'partials/custom.scss';
+// @import 'partials/footer.scss';
+// @import 'partials/media.scss';

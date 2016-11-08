@@ -50,8 +50,9 @@
       </div>
     </div>
     <div class="four wide computer only column" align="center">
+      <div style="width:80%;margin-top:20px;" id="hire_me" class="ui primary button"><i class="user icon"></i> Hire Me</div>
       <a href="script/pdf_download.php?">
-        <div id="download_resume" class="ui green button">
+        <div style="width:80%;" id="download_resume" class="ui green button">
           <i class="download icon"></i> Download Resume
         </div>
       </a>

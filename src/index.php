@@ -7,6 +7,7 @@
 	<?php require_once('inc/header.php'); ?>
 
 	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/ribbons.css">
 	<link rel="stylesheet" type="text/css" href="css/app-min.css">
 	<link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">

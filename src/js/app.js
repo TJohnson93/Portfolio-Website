@@ -11,6 +11,11 @@ $(document).ready(function(){
 	$('#contact_success_message').hide();
 	$('.default_hide').hide();
 
+  // Siderbar (Mobile Menu)
+  $('.ui.sidebar').sidebar('toggle');
+  $('.hamburger').click(function(){
+    $('.ui.sidebar').sidebar('toggle');
+  });
 
   /*
   * Click Function

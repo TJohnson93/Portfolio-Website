@@ -28,7 +28,7 @@ module.exports = function (grunt) {
     //'default', // Run Development Build
     'newer:uglify:production',
     'newer:less:production',
-    'newer:copy',
+    // 'newer:copy',
   ]);
 
   grunt.registerTask('serve', [

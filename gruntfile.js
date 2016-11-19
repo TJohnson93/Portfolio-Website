@@ -24,11 +24,16 @@ module.exports = function (grunt) {
     'less:development'
   ]);
 
-  grunt.registerTask('build', [
-    //'default', // Run Development Build
+  grunt.registerTask('dev', [
     'newer:uglify:production',
     'newer:less:production',
-    // 'newer:copy',
+  ]);
+
+  grunt.registerTask('prod', [
+    'dev', // Run Development Build
+    'newer:uglify:production',
+    'newer:less:production',
+    'newer:copy',
   ]);
 
   grunt.registerTask('serve', [

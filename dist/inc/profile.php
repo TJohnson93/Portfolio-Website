@@ -1,6 +1,6 @@
 <!-- Profile Section -->
 <div class="ui stackable grid container segment profile">
-  <div class="six wide tablet four wide computer column">
+  <div class="four wide tablet four wide computer column">
     <img class="ui medium bordered rounded image" src="img/profile_logo.jpg" height="280" width="280">
     <div class="container social">
       <ul>
@@ -33,7 +33,7 @@
     </a>
   </div>
 </div>
-<div class="ten wide tablet eight wide computer column about">
+<div class="eight wide tablet eight wide computer column about">
   <div class="about_name">Todd Johnson</div>
   <div class="about_title">Web Developer / IT Tech</div>
   <div class="about_msg">
@@ -49,11 +49,16 @@
         you won't be disappointed with the results." </p>
       </div>
     </div>
-    <div class="four wide computer only column" align="center">
+    <div class=" four wide tablet four wide computer column" align="center">
       <div style="width:80%;margin-top:20px;" id="hire_me" class="ui primary button"><i class="user icon"></i> Hire Me</div>
       <a href="script/pdf_download.php?">
         <div style="width:80%;" id="download_resume" class="ui green button">
           <i class="download icon"></i> Download Resume
+        </div>
+      </a>
+      <a href="http://m.me/BeboTheBot">
+        <div style="max-width:80%;padding-top:60px;" id="bebot_code">
+          <img style="max-width: 100%;" src="img/messenger_code.png" alt="BeBot Facebook Messenger Code"/>
         </div>
       </a>
     </div>

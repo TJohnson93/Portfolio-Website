@@ -11,11 +11,15 @@
 
   $documents = array(
       // Certifications
-      'aca_mac_management' => array('title' => 'Apple Certified Associate - Mac Management 10.10', 'file' => 'certs/aca_mac_management.png', 'info' => $info_obtaining),
-      'aca_mac_integration' => array('title' => 'Apple Certified Associate - Mac Integration 10.10', 'file' => 'certs/aca_mac_integration.png', 'info' => $info_obtaining),
-      'comptia_a+' => array('title' => 'CompTIA A+', 'file' => 'certs/comptia_a+.png', 'info' => $info_obtaining),
+      'aca_mac_management' => array('title' => 'Apple Certified Associate - Mac Management 10.10', 'file' => '', 'info' => $info_obtaining),
+      'aca_mac_integration' => array('title' => 'Apple Certified Associate - Mac Integration 10.10', 'file' => '', 'info' => $info_obtaining),
+      'comptia_a+' => array('title' => 'CompTIA A+', 'file' => '', 'info' => $info_obtaining),
+      'comptia_network+' => array('title' => 'CompTIA Network+', 'file' => '', 'info' => $info_obtaining),
+      'comptia_security+' => array('title' => 'CompTIA Security+', 'file' => '', 'info' => $info_obtaining),
+      'comptia_linux+' => array('title' => 'CompTIA Linux+', 'file' => '', 'info' => $info_obtaining),
+      'cisco_ccna' => array('title' => 'Cisco CCNA', 'file' => '', 'info' => $info_obtaining),
       'itil_foundations' => array('title' => 'ITIL Foundations', 'file' => 'certs/itil_foundations.png', 'info' => $info_obtaining),
-      'six_sigma_yellow' => array('title' => 'Six Sigma Yellow Belt', 'file' => 'certs/cert_six_sigma_yellow.jpg', 'info' => $info_obtained),
+      'six_sigma_yellow' => array('title' => 'Six Sigma Yellow Belt', 'file' => 'certs/cert_sigma_yellow.png', 'info' => $info_obtained),
 
       // Badges
       'cs_regex' => array('title' => 'Breaking the Ice with Regular Expressions', 'file' => 'certs/badge_regex.png', 'info' => 'A CodeSchool acheivement the their course: <strong>Breaking the Ice with Regular Expressions</strong>.'),
@@ -24,12 +28,12 @@
       'cs_sequel_sql' => array('title' => 'Sequel to SQL', 'file' => '', 'info' => 'I am currently working to obtain this certification.'),
 
       // Certificates
-      'lynda_01' => array('title' => 'Customer Service Fundamentals', 'file' => 'certs/lynda_certificate_customer_service_fundamentals.png', 'info' => $info_obtained),
+      'lynda_01' => array('title' => 'Customer Service Fundamentals', 'file' => 'certs/cert_lynda_01.png', 'info' => $info_obtained),
       'qld_health_appreciation' => array('title' => 'eHealth Queensland - Certificate of Appreciation', 'file' => 'certs/cert_appreciation_qld_health.png', 'info' => $info_obtained),
       'cc_mystery_shopper' => array('title' => 'Mystery Shopper Award', 'file' => 'certs/achievement_cash_converters_mystery_shopper.png', 'info' => 'Whilst working at Cash Converters, I had to perform at a certain standard at all times, regardless of the customer I was serving at the time. Often Cash Converters would entertain a Mystery Shopper to ensure that staff were upholding these standards. I received a well above average score of 94% whilst working in the Buys & Loans Dept.'),
       'cert_rsa' => array('title' => 'Responsible Service of Alcohol', 'file' => 'certs/cert_rsa.png', 'info' => $info_obtained),
-      'cert_gcit_diploma' => array('title' => 'Diploma of Information Technology (Software Development)', 'file' => 'certs/degree_gcit_diploma.jpg', 'info' => $info_obtained),
-      'cert_gcit_diploma_transcript' => array('title' => 'Diploma of Information Technology (Software Development) Transcript', 'file' => 'certs/degree_gcit_diploma_transcript.jpg', 'info' => $info_obtained),
+      'cert_gcit_diploma' => array('title' => 'Diploma of Software Development', 'file' => 'certs/degree_gcit_diploma.jpg', 'info' => $info_obtained),
+      'cert_gcit_diploma_transcript' => array('title' => 'Diploma of Software Development Transcript', 'file' => 'certs/degree_gcit_diploma_transcript.jpg', 'info' => $info_obtained),
       'mva_01' => array('title' => 'Microsoft Virtual Academy Certificate', 'file' => 'certs/cert_mva_microsoft_licensing_fundamentals.jpg', 'info' => $info_obtained),
       'mva_02' => array('title' => 'Microsoft Virtual Academy Certificate', 'file' => 'certs/cert_mva_licensing_office_2013_and_office_365.jpg', 'info' => $info_obtained),
       'mva_03' => array('title' => 'Microsoft Virtual Academy Certificate', 'file' => 'certs/cert_mva_office_365_fundamentals.png', 'info' => $info_obtained),
@@ -50,14 +54,16 @@
       'ms_learn_10524' => array('title' => 'Intermediate Skills in Microsoft Outlook 2010', 'file' => 'certs/cert_ms_learning_10524.jpg', 'info' => $info_obtained),
 
       // References
-      'bwruc_ref' => array('title' => 'Written Reference - Jim Logan', 'file' =>'docs/reference_jim_logan.png', 'info' => 'Lorem Ipsum', 'note' => $note),
-      'home_ref' => array('title' => 'Written Reference - Peter Turner', 'file' =>'docs/reference_peter_turner.png', 'info' => 'Lorem Ipsum', 'note' => $note),
-      'subway_ref' => array('title' => 'Written Reference - Karla Lee', 'file' =>'docs/reference_karla_lee.png', 'info' => 'Lorem Ipsum', 'note' => $note),
-      'bshs_ref' => array('title' => 'Written Reference - D.N Wakefield', 'file' =>'docs/reference_d_n_wakefield.png', 'info' => 'Lorem Ipsum', 'note' => $note),
-      'gcit_ref' => array('title' => 'Written Reference - Bob James', 'file' =>'docs/reference_bob_james.png', 'info' => 'Lorem Ipsum', 'note' => $note),
+      'bwruc_ref' => array('title' => 'Reference - Jim Logan (Secretary/Treasurer)', 'file' =>'docs/reference_jim_logan.png', 'info' => 'Lorem Ipsum', 'note' => $note),
+      'home_ref' => array('title' => 'Reference - Peter Turner (Store Manager)', 'file' =>'docs/reference_peter_turner.png', 'info' => 'Lorem Ipsum', 'note' => $note),
+      'subway_ref' => array('title' => 'Reference - Karla Lee (Store Manager)', 'file' =>'docs/reference_karla_lee.png', 'info' => 'Lorem Ipsum', 'note' => $note),
+      'bshs_ref' => array('title' => 'Reference - D.N Wakefield (Design & Tech. H.O.D)', 'file' =>'docs/reference_d_n_wakefield.png', 'info' => 'Lorem Ipsum', 'note' => $note),
+      'gcit_ref' => array('title' => 'Reference - Bob James (Classmate)', 'file' =>'docs/reference_bob_james.png', 'info' => 'Lorem Ipsum', 'note' => $note),
+      'qldhealth_ref' => array('title' => 'Reference - Andrew Joncour (Project Manager)', 'file' =>'', 'info' => 'Lorem Ipsum', 'note' => $note),
 
       // Licenses
-      'lic_white_card' => array('title' => 'License - QLD Construction White Card', 'file' =>'certs/license_construction_white_card.jpeg', 'info' => $info_obtained)
+      'lic_white_card' => array('title' => 'QLD Construction White Card', 'file' =>'certs/license_construction_white_card.jpeg', 'info' => $info_obtained),
+      'lic_blue_card' => array('title' => 'Working with Children Blue Card', 'file' =>'', 'info' => $info_obtained),
     );
 ?>
 

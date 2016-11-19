@@ -12,8 +12,14 @@ $(document).ready(function(){
 	$('.default_hide').hide();
 
 
+  // Siderbar (Mobile Menu)
+  $('.ui.sidebar').sidebar('toggle');
+  $('.hamburger').click(function(){
+    $('.ui.sidebar').sidebar('toggle');
+  });
+
+	// Hide sidebar when menu item is clicked
   $('.ui.sidebar').click(function(){
-    console.log('Running');
     $('.ui.sidebar').sidebar('hide');
   });
 

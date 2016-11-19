@@ -12,6 +12,11 @@ $(document).ready(function(){
 	$('.default_hide').hide();
 
 
+  $('.ui.sidebar').click(function(){
+    console.log('Running');
+    $('.ui.sidebar').sidebar('hide');
+  });
+
   /*
   * Click Function
   *

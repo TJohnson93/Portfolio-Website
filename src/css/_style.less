@@ -5,6 +5,17 @@ html {
 	font-family: "Lato", "Helvetica Neue", Helvetica,Arial, sans-serif;
 }
 
+// Fix for Semantic-UI sidebar
+// http://semantic-ui.com/modules/sidebar.html#ios-sidebars
+html.ios {
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+html.ios,
+html.ios body {
+  height: initial !important;
+}
+
 body{
 	background:#ededee;
 }

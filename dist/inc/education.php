@@ -9,7 +9,8 @@
           'attachment_available' => true,
           'attachments' => array(array('type' => 'Diploma', 'src' => 'cert_gcit_diploma'),
                                  array('type' => 'Transcript', 'src' => 'cert_gcit_diploma_transcript'),
-                                 array('type' => 'Written Reference', 'src' => 'gcit_ref'))),
+                                //  array('type' => 'Written Reference', 'src' => 'gcit_ref')
+                               )),
     // array('course' => 'Full Stack Web Development',
     //       'institute' => 'Free Code Camp',
     //       'start_date' => '2015',
@@ -51,7 +52,7 @@
             <?php if ($course['attachment_available']){ ?>
               <?php foreach ($course['attachments'] as $attachment) {?>
                 <div class="ui label doc-viewer">
-                  <a class="documentation" href="#" data-content="<?php $attachment['src'] ?>">
+                  <a class="documentation" href="#" data-content="<?php echo $attachment['src']; ?>">
                     View <?php echo $attachment['type'];?>
                     <div class="ui small inline loader"></div>
                   </a>

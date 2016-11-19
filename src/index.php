@@ -27,48 +27,51 @@
 <body>
 
 	<?php require_once('inc/browser_checks.php'); ?>
+	<?php require_once('inc/navigation.php'); ?>
 
-	<div id="page">
-		<?php require_once('inc/navigation.php'); ?>
+	<div class="dimmed pusher">
+		<div id="page">
+			<?php require_once('inc/navigation.php'); ?>
 
-		<!-- Cover Image -->
-		<div class="ui cover" style="height: 500px;"></div>
-		<div class="container ui content-container">
+			<!-- Cover Image -->
+			<div class="ui cover" style="height: 500px;"></div>
+			<div class="container ui content-container">
 
-			<!-- Hidden Modals -->
-			<?php require_once('inc/contact_modal.php'); ?>
-			<?php require_once('inc/document_viewer.php'); ?>
+				<!-- Hidden Modals -->
+				<?php require_once('inc/contact_modal.php'); ?>
+				<?php require_once('inc/document_viewer.php'); ?>
 
-			<!-- Start of Portfolio -->
-			<?php require_once('inc/profile.php'); ?>
-			<?php require_once('inc/portfolio.php'); ?>
+				<!-- Start of Portfolio -->
+				<?php require_once('inc/profile.php'); ?>
+				<?php require_once('inc/portfolio.php'); ?>
 
-			<!-- Resume Section -->
-			<div class="ui stackable grid container resume">
+				<!-- Resume Section -->
+				<div class="ui stackable grid container resume">
 
-				<!-- Left Column -->
-				<div class="sixteen wide tablet eleven wide computer column">
-					<?php require_once('inc/education.php'); ?>
-					<?php require_once('inc/experience.php'); ?>
-				</div>
+					<!-- Left Column -->
+					<div class="sixteen wide tablet eleven wide computer column">
+						<?php require_once('inc/education.php'); ?>
+						<?php require_once('inc/experience.php'); ?>
+					</div>
 
-				<!-- Right Column -->
-				<div class="sixteen wide tablet five wide computer column">
-					<?php require_once('inc/skills.php'); ?>
-					<?php require_once('inc/volunteer.php'); ?>
-				</div>
+					<!-- Right Column -->
+					<div class="sixteen wide tablet five wide computer column">
+						<?php require_once('inc/skills.php'); ?>
+						<?php require_once('inc/volunteer.php'); ?>
+					</div>
 
-				<!-- Under two columns - Full width -->
-				<div class="sixteen wide tablet sixteen wide computer column">
-					<?php require_once('inc/certificates.php'); ?>
+					<!-- Under two columns - Full width -->
+					<div class="sixteen wide tablet sixteen wide computer column">
+						<?php require_once('inc/certificates.php'); ?>
+					</div>
 				</div>
 			</div>
-		</div>
 
-		<div class="footer">
-			Made with <i class="heart icon" style="color:red"></i> by Todd Johnson
-		</div>
+			<div class="footer">
+				Made with <i class="heart icon" style="color:red"></i> by Todd Johnson
+			</div>
 
+		</div>
 	</div>
 
 	<!-- Inline Javascript -->

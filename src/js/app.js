@@ -17,6 +17,11 @@ $(document).ready(function(){
     $('.ui.sidebar').sidebar('toggle');
   });
 
+  $('.ui.sidebar').click(function(){
+    console.log('Running');
+    $('.ui.sidebar').sidebar('hide');
+  });
+
   /*
   * Click Function
   *

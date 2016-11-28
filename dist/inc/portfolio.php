@@ -2,8 +2,9 @@
 
   $portfolio = array(
     array('title' => 'Github - Gutsy', 'link' => 'https://github.com/TJohnson93/gutsy', 'sprite' => 'portfolio_github_gutsy', 'message' => 'A PHP database class to connect to MySQL, MS SQL &amp; SQLite via the PDO API.'),
-    array('title' => 'Kwarza Studios', 'link' => 'https://www.kwarzastudios.com', 'sprite' => 'portfolio_kwarzastudios', 'message' => 'A Landing page for Kwarza Studios'),
-    array('title' => 'Survaay Harcourt', 'link' => 'https://www.toddjohnson.com.au/projects/survaay/', 'sprite' => 'portfolio_survaay_harcourts', 'message' => 'A Property Management Survey for Harcourts. Running on the Survaay Platform, created by myself.', 'status' => 2),
+    array('title' => 'Kwarza Studios', 'link' => 'http://www.kwarzastudios.com', 'sprite' => 'portfolio_kwarzastudios', 'message' => 'A Landing page for Kwarza Studios'),
+    array('title' => 'Survaay Builder', 'link' => 'http://www.toddjohnson.com.au/projects/survaay/builder/builder.html', 'sprite' => 'portfolio_survaay_harcourts', 'message' => 'Concept of Survaay Builder', 'status' => 1),
+    array('title' => 'Survaay Harcourt', 'link' => 'http://www.toddjohnson.com.au/projects/survaay/harcourts', 'sprite' => 'portfolio_survaay_harcourts', 'message' => 'A Property Management Survey for Harcourts. Running on the Survaay Platform, created by myself.', 'status' => 2),
     array('title' => 'Weather App', 'link' => 'projects/freecodecamp/weatherapp', 'sprite' => 'portfolio_freecodecamp_weatherapp', 'message' => 'A weather app that displays the current weather conditions based on the users geo location. Built with JavaScript.'),
     array('title' => 'Quote Generator', 'link' => 'projects/freecodecamp/quotemachine', 'sprite' => 'portfolio_freecodecamp_quotegenerator', 'message' => 'A random quote generator that is built with JavaScript'),
     array('title' => 'IMDb', 'link' => 'projects/concepts/imdb', 'sprite' => 'portfolio_imdb', 'message' => $alpha_str, 'status' => 1),

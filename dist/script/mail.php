@@ -11,22 +11,12 @@
 		$phone = trim(strip_tags($_POST['contact']['phone']));
 		$message = trim(strip_tags($_POST['contact']['message']));
 
-		// ReCaptcha Validation
-		// require('/path/to/recaptcha/src/autoload.php');
-		// $recaptcha = new \ReCaptcha\ReCaptcha($secret);
-		// $resp = $recaptcha->verify($gRecaptchaResponse, $remoteIp);
-		// if ($resp->isSuccess()) {
-		//     // verified!
-		// } else {
-		//     $errors = $resp->getErrorCodes();
-		// }
-		
-
+		// Validate Recaptcha2
 		$captcha = $_POST['g-recaptcha-response'];
 		$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=6LcJtQoTAAAAAEWUefyQcuGut0eLRrs9g2YA7m4H&response=" . $captcha);
 		$captchaResult = json_decode($response);
 
-		
+
 		// Further field validation
 		if(empty($name) OR empty($message) OR empty($phone) OR !filter_var($email, FILTER_VALIDATE_EMAIL)){
 			if($captchaResult->success == false){
@@ -39,8 +29,8 @@
 			// Set Email settings
 			$mail = new PHPMailer;
 			$mail->isHTML(true);
-			$mail->isSMTP(); 
-			$mail->Host = 'mail.toddjohnson.com.au';    
+			$mail->isSMTP();
+			$mail->Host = 'mail.toddjohnson.com.au';
 			$mail->SMTPAuth = true;
 			$mail->Username = 'me@toddjohnson.com.au';
 			$mail->Password = 'Ang3l@2011';

@@ -1,6 +1,16 @@
 <?php
 
   $work_experience = array(
+    array('organisation' => 'Department of Justice & Attorney General',
+          'organisation_sub' => '',
+          'position' => 'Level 2/3 Technical Support Officer',
+          'start_date' => 'August 2016',
+          'end_date' => 'Currently Employed',
+          'description' => 'I am currently employed at the Department of Justice & Attorney General as a Level 2/3 Technical Support Officer. I work with a major client (Queensland Corrective Services) and assist with support for over 3500 assets across Queensland.',
+          'tasks_list' => array('Provide support for over 3500 assets', 'Packaging, testing, and distributing software through SCCM', 'Replacing 100s of workstations that are out of warranty', 'Deploying applications to workstations using SCCM', 'Create/Manage Accounts in Active Directory', 'Creating scripts in Powershell to assist techs with support', 'Assist in testing applications before deployment across the fleet', 'Documenting user to understand guides for general users', 'Documenting articles for a newly created tech knowledgebase', 'Escalating service calls and directing the support for issues to be resolved by third party companies', 'Provide onsite repair work when applicable'),
+          'attachments_available' => false,
+          'hidden' => false,
+        ),
     array('organisation' => 'Queensland Health',
           'organisation_sub' => '',
           'position' => 'Information Technology Officer',
